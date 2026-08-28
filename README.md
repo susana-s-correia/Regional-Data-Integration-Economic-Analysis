@@ -30,3 +30,11 @@ Affiliations allocated to basins
               ↓
          QGIS mapping
 ```
+
+# Data preparation
+- Cleaned and standardized Social Security affiliation data.
+- Harmonized geographical identifiers.
+- Prepared municipal population data.
+- Prepared geographical boundaries for municipalities and river basins.
+
+
