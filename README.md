@@ -1,4 +1,4 @@
-# Regional-Data-Integration-Economic-Analysis
+# Data Aggregation at River Basin Level in Catalonia for Economic Analysis
  Integrate county-level economic and spatial data to estimate the distribution of economic activity across Catalonia's river basins.
 
 ![Division of Catalonia territory by River Basin](outputs/River_basins_Cat.png)
