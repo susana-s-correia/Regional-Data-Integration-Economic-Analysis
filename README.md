@@ -1,7 +1,7 @@
 # Regional-Data-Integration-Economic-Analysis
  Integrate county-level economic and spatial data to estimate the distribution of economic activity across Catalonia's river basins.
 
-
+![Division of Catalonia territory by River Basin](River-basins-Catalonia.png)
 
 # Project overview
 This project estimates the number of Social Security affiliations (as a measure of employment) associated with each river basin (cuenca hidrográfica) in Catalonia.
