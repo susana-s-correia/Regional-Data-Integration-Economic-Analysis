@@ -9,6 +9,8 @@
 #Data are provided at the comarca and Aran levels.
 #
 # =====================================================
+getwd()
+setwd("C:/Users/Proprietário/Documents/PERSONAL/ESPAÑA/Trabajo con Angels/Datos")
 
 library(readxl)
 
@@ -166,7 +168,7 @@ library(writexl)
 
 write_xlsx(
   afiliaciones,
-  "Output/afiliaciones_totales_comarcas.xlsx"
+  "Output/affiliations_total_comarcas.xlsx"
 )
 
 
