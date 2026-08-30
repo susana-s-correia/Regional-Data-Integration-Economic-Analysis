@@ -1,7 +1,10 @@
-# Data Aggregation at River Basin Level in Catalonia for Economic Analysis
- Integrate county-level economic and spatial data to estimate the distribution of economic activity across Catalonia's river basins.
+# Project background
+As part of a research project, the objective was to assess the potential impacts of different water management scenarios in Catalonia, including drought scenarios. To support this analysis, economic data needed to be collected and aggregated at the river basin level, as water management policies in Catalonia are geographically organized according to river basin categories.
 
-![Division of Catalonia territory by River Basin](outputs/River_basins_Cat.png)
+In this particular project, I focused on employment data. The objective was to transform employment figures available at the administrative level into estimates at the river basin level, allowing them to be incorporated into the broader water management analysis.
+
+
+![Division of Catalonia territory by River Basin](outputs/river_systems.png)
 
 # Project overview
 This project estimates the number of Social Security affiliations (as a measure of employment) associated with each river basin (cuenca hidrográfica) in Catalonia.
