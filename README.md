@@ -1,8 +1,8 @@
 # Project background
-As part of a research project, the objective was to assess the potential impacts of different water management scenarios in Catalonia, including drought scenarios. To support this analysis, economic data needed to be collected and aggregated at the river basin level, as water management policies in Catalonia are geographically organized according to river basin categories.
+As part of a research project, the objective was to assess the potential impacts of different water management scenarios in Catalonia, including drought scenarios. To support this analysis, sectoral and yearly (2021-2025) economic data needed to be collected and aggregated at the river basin level, as water management policies in Catalonia are geographically organized according to river basin categories.
 
-This project estimates the number of Social Security affiliations (as a measure of employment) associated with each river basin (cuenca hidrográfica) in Catalonia.
-The available Social Security data were not directly reported at the river-basin level. Instead, the analysis combines district (comarca) level data, municipal population data, and geographical boundaries to estimate the distribution of affiliations across river basins.
+This project estimates the number of Social Security affiliations (as a measure of employment) associated with each river basin system (sistemas de gestión de cuenca) in Catalonia.
+The available Social Security data were not directly reported at the river-basin level. Instead, the analysis combines district (comarca) level data, municipal population data, and geographical boundaries to estimate the distribution of affiliations across river basin groups.
 The analysis was performed in R, while QGIS was used to manage and visualize the resulting spatial data.
 
 ![Division of Catalonia territory by River Basin Systems](outputs/river-systems.png)
@@ -10,8 +10,7 @@ The analysis was performed in R, while QGIS was used to manage and visualize the
 # Analytical question and problem
 How can Social Security affiliations as a measure of employment be estimated at the river-basin level when the original data are available at a different geographical level?
 
-Then explain the challenge:
-The main challenge was that some districts were divided between multiple river basins. Therefore, affiliations could not simply be assigned to a single basin. Population data at the municipal level were used to estimate the share of each district area belonging to each basin.
+The main challenge was that some districts were divided between multiple river basins. Therefore, affiliations for those districts could not simply be assigned to a single basin. Population data at the municipal level was used to estimate the share of each district area belonging to each basin group.
 
 # Project workflow
 ```text
