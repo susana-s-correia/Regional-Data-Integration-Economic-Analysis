@@ -4,7 +4,7 @@ As part of a research project, the objective was to assess the potential impacts
 In this particular project, I focused on employment data. The objective was to transform employment figures available at the administrative level into estimates at the river basin level, allowing them to be incorporated into the broader water management analysis.
 
 
-![Division of Catalonia territory by River Basin](outputs/river_systems.png)
+![Division of Catalonia territory by River Basin Systems](outputs/river_systems.png)
 
 # Project overview
 This project estimates the number of Social Security affiliations (as a measure of employment) associated with each river basin (cuenca hidrográfica) in Catalonia.
