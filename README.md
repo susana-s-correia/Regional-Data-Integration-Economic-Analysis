@@ -38,4 +38,8 @@ Affiliations allocated to basin systems level
 - Prepared municipal population data.
 - Prepared geographical boundaries for municipalities and river basins.
 
+# Overview of findings
+
+The analysis transformed municipal-level employment data into a river-basin-based dataset for Catalonia. A total of [X] municipalities were assigned to [X] river basin groups, while [X] comarcas were split across basin boundaries. Where municipalities or comarcas crossed these boundaries, population-weighted allocation was used to distribute economic activity between the relevant basin groups. The resulting dataset provides employment estimates by river basin and sector, creating a basis for evaluating the potential economic effects of water management and drought scenarios.
+
 
