@@ -14,19 +14,29 @@ The main challenge was that some districts were divided between multiple river b
 
 # Project workflow
 ```text
-        Affiliation data by district
-                      ↓
-               Data cleaning
-                      ↓
-                QGIS mapping
-                      ↓
-          Municipal population data
-                      ↓
-        Population-weighted allocation
-                      ↓
-    District areas → River basin systems
-                      ↓
-Affiliations allocated to basin systems level
+        Social Security affiliation data
+                    ↓
+              Data cleaning
+                    ↓
+        Municipal population data
+                    ↓
+     Administrative district boundaries
+                    ↓
+          Spatial intersection
+                    ↓
+   Municipality → River basin system
+                    ↓
+     Territorial share calculation
+                    ↓
+       Population allocation
+                    ↓
+  Municipality → Comarca aggregation
+                    ↓
+     Population weights by system
+                    ↓
+  Allocation of affiliations by system
+                    ↓
+ Employment estimates by river basin system
              
          
 ```
@@ -39,6 +49,10 @@ Affiliations allocated to basin systems level
 
 # Overview of findings
 
-The analysis transformed municipal-level employment data into a river-basin-based dataset for Catalonia. A total of [X] municipalities were assigned to [X] river basin groups, while [X] comarcas were split across basin boundaries. Where municipalities or comarcas crossed these boundaries, population-weighted allocation was used to distribute economic activity between the relevant basin groups. The resulting dataset provides employment estimates by river basin and sector, creating a basis for evaluating the potential economic effects of water management and drought scenarios.
+The analysis identified 138 municipalities that are intersected by more than one river basin system, highlighting the importance of accounting for administrative and river-basin boundaries when aggregating economic data.
+
+Rather than assigning these municipalities or their associated economic activity entirely to a single river basin, the analysis used their territorial distribution across systems to allocate population. Population was then aggregated to the comarca level and used to derive weights for distributing Social Security affiliations across river basin systems.
+
+The final dataset provides Social Security affiliation estimates by river basin system, sector and year (2021–2025). This creates a consistent geographical dataset that can be used to assess the potential economic effects of different water-management and drought scenarios.
 
 
