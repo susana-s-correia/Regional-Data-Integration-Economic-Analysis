@@ -10,7 +10,7 @@ The analysis was performed in R, while QGIS was used to manage and visualize the
 # Analytical question and problem
 How can Social Security affiliations as a measure of employment be estimated at the river-basin level when the original data are available at a different geographical level?
 
-The main challenge was that some districts were divided between multiple river basins. Therefore, affiliations for those districts could not simply be assigned to a single basin. Population data at the municipal level was used to estimate the share of each district area belonging to each basin group.
+The main challenge was that some districts were divided between multiple river basins. Therefore, affiliations for those districts could not simply be assigned to a single basin. Population data at the municipal level was used to estimate the share of each district area belonging to each basin group, assuming that the larger the population, the more economic activity exist in that area. 
 
 # Project workflow
 ```text
